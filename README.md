@@ -1,7 +1,7 @@
 # Running a node on LUKSO Mainet
 
 To be part of Lukso's network as a validator one should understand the concept of staking. 
-Staking is the process of creating and maintaining one (or more) of these validators on the [Beacon Chain]{https://ethereum.org/en/upgrades/beacon-chain/} to help the network maintain the consistency and security of the Lukso blockchain. Validators do this by listening for transactions and new block proposals, and attesting that the proposed block contains legal, valid transactions by doing some number crunching and verification behind the scenes. Occasionally, they get to propose new blocks themselves.
+Staking is the process of creating and maintaining one (or more) of these validators on the [Beacon Chain](https://ethereum.org/en/upgrades/beacon-chain/) to help the network maintain the consistency and security of the Lukso blockchain. Validators do this by listening for transactions and new block proposals, and attesting that the proposed block contains legal, valid transactions by doing some number crunching and verification behind the scenes. Occasionally, they get to propose new blocks themselves.
 
 To ensure that the network is resilient against malicious validators that lie about the current state of the chain, each validator is required to lock exactly ~~100 LYX~~ up as a "stake" in the networks. Performing their duties correctly and agreeing with the majority of the other validators will earn them rewards; performing incorrectly and attacking the chain will cost them some of their locked ~~100 LYX~~ balance. The amount taken depends on the severity of the attack and the number of validators that participated in it.
 
